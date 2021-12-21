@@ -1,12 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int client_balance = 100;
-        int replenishment_amount = 915;
-        if (replenishment_amount >= 1000) {
-
-            System.out.println(client_balance + replenishment_amount + replenishment_amount / 100);
+        int clientBalance = 100;
+        int replenishmentAmount = 915;
+        if (replenishmentAmount >= 1000) {
+            System.out.println(clientBalance + replenishmentAmount + replenishmentAmount / 100);
         } else {
-            System.out.println(client_balance + replenishment_amount);
+            System.out.println(clientBalance + replenishmentAmount);
         }
     }
 }
